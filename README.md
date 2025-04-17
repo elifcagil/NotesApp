@@ -17,7 +17,7 @@ A simple and elegant iOS note-taking app built with **Swift** and **Core Data**.
 ---
 
 ## 🖼 DEMO 
-![NotesApp Demo]  : NotesApp.mov
+![NotesApp Demo]  : [NotesApp.mov](https://github.com/elifcagil/NotesApp/blob/main/NotesApp.mov)
 
 
 
