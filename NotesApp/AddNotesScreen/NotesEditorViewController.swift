@@ -29,6 +29,7 @@ class NotesEditorViewController: UIViewController {
         
     }
     
+    
     func GelenNot(){
         if let gelenNot = note{
             NotesTitle.text = gelenNot.title
@@ -70,9 +71,6 @@ class NotesEditorViewController: UIViewController {
     
     @IBAction func saveNotesButton(_ sender: Any) {
         if let content = NotesContent.text,!content.trimmingCharacters(in: .whitespaces).isEmpty {
-            
-            
-            
             let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             
             if let existingNote = note{
