@@ -13,12 +13,10 @@ A simple and elegant iOS note-taking app built with **Swift** and **Core Data**.
 - 💾 Notes are persisted using Core Data (offline support)  
 - 🎨 Adaptive UI for Dark and Light modes
 - 📅 Notes are sorted by creation date
-
+- 🧱 Built with MVVM architecture for clean separation of concerns
+  
 ---
 
-## 🖼 DEMO 
-
-![NotesApp Demo](NotesApp.gif)
 
 
 
@@ -59,6 +57,29 @@ Your notes are saved using **Core Data**, so they're still available when you cl
 - CreatedDate(`Date`)
 
 ---
+## 🧠 MVVM Breakdown
+
+This project is built using the **MVVM (Model-View-ViewModel)** design pattern for better code organization and maintainability.
+
+- **Model**:  
+  `Note` — Represents the data structure of a note, including properties like title, content, and creation date.
+
+- **View**:  
+  All the UI components such as the note list, note editor, and the input forms that interact with the user.
+
+- **ViewModel**:  
+  Encapsulates the logic for adding, editing, deleting, and fetching notes. It communicates with the `CoreDataManager` to persist data and exposes observable data to the views.
+
+By separating concerns, MVVM allows the app to be **more testable**, **scalable**, and **cleanly structured**.
+
+---
+
+## 🖼 DEMO 
+
+![NotesApp Demo](NotesApp.gif)
+
+
+
 
 
 
