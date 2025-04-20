@@ -74,12 +74,15 @@ By separating concerns, MVVM allows the app to be **more testable**, **scalable*
 
 ---
 
-## 🖼 DEMO 
-
-![NotesApp Demo](NotesApp.gif)
 
 
+## 🖼️ Demo
 
+<p align="center">
+  <img src="NotesApp.gif" alt="NotesApp Demo" width="300" />
+</p>
+
+---
 
 
 
